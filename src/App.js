@@ -2,6 +2,7 @@
 import Header from './header/header';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,7 @@ function App() {
         <div className='row'>
             <Home/>
         </div>
+      
       </div>
     </div>
   );
