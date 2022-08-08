@@ -16,10 +16,18 @@ const Home = () => {
                 
                </div>
                 <div className="container">
+                <div className="image">
+                    <img src={require("./Anne2.JPG")} alt="Zinkeng"/>
+                    </div>
+
+                    <div className="text">
               
                     <p>About me{'\n'}
                     My name is Ajongafac Zinkeng Mbetem. I am a Software engineer aspirant and graphic designer, based in Buea, Cameroon. I’m very passionate and dedicated to my work. With my three years experience in engineering school, I have acquired the skills necessary to build great and premuim websites, applications and softwares. I am particularly interested in open souce community projects and projects that brings about innovation in the Cameroon tech space and beyond.</p>
-                    <img src={require("./Anne2.JPG")} alt="Zinkeng"/>
+                    </div>
+
+                    <div className="bio">
+
                     <ul>
                         <li>Name: Ajongafac Zinkeng Mbetem</li>
                         <li>Age: 20 years</li>
@@ -28,6 +36,7 @@ const Home = () => {
                         <li>E-mail: ajongafaczinkeng@gmail.com</li>
                         <li>Github link: https://github.com/Zinkeng</li>
                     </ul>
+                    </div>
                 </div> 
             </div>   
             
