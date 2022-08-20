@@ -27,7 +27,7 @@
 }
 
 .navbar a:hover {
-  color: pink;
+  color: #FF006B;
   background-color: black;
 }
 
@@ -39,6 +39,7 @@
 .home {
   background-image: url("../public/Mass.jpg");
   height: 100vh;
+  
 }
 
 .home .profile img {
@@ -52,7 +53,7 @@
 }
 
 .home h1 {
-  color: pink;
+  color: #FF006B;
   text-align: center;
 }
 
@@ -60,19 +61,27 @@
   text-align: center;
   color: white;
 }
+
+
 /*********************************HOME CSS END************************************/
 /*********************************ABOUT PAGE CSS BEGINS***************************/
 
 .container {
   display: flex;
+  margin: auto;
+  justify-content: center;
 }
 
 #discover {
   flex-direction: column;
   margin-top: 10%;
+  font-size: 18px;
+  color: #FF006B;
 }
 
 .text {
+  
+  margin-top: 40px;
   margin-left: 20px;
 }
 
@@ -81,15 +90,20 @@
 }
 
 #bio {
-  margin-top: 5px;
+  margin-top: 50px;
   color: white;
-  border: 1px solid pink;
-  width: 40%;
+  border: 1px solid #FF006B;
+  width: 100%;
 }
 
 .aboutpage {
-  background-color: #8614ba;
+  background-color: rgb(67, 3, 60);
   color: white;
+}
+
+hr{
+ 
+  border-color: #FF006B ;
 }
 /*box in about page*/
 
@@ -101,10 +115,50 @@
 
 /*******About me image styling*********/
 .aboutpage .container img {
-  height: 400px;
-  width: 400px;
-  margin-left: 100px;
+  height: 500px;
+  width: 500px;
+ 
   margin-top: 15%;
   padding-left: 100px;
   position: relative;
+}
+
+button{
+  background-color: #FF006B;
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size:larger;
+  border-radius: 50px;
+  height: 50px;
+  width: 200px;
+  margin-top: 30px;
+  
+}
+
+/******************************************SERVICES PAGE*******************************************************************/
+.services{
+  background-color: rgb(126, 4, 112);
+  height: 50vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.services-boxes{
+  display: flex;
+  margin-top: 40px;
+}
+
+.services-boxes .box{
+  border: 1px solid #FF006B ;
+  padding: 0px;
+  margin-left: 100px;
+  margin-right: 10px;
+  width: 50%;
+  height: 300px;
+}
+
+ .box-text{
+  text-align: center;
+  margin-top: 150px;
 }
