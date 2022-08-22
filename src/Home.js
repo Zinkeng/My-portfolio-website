@@ -16,7 +16,7 @@ const Home = () => {
 
           <div className="text">
           <h3 id="discover">Discover</h3>
-          <h4 style={{fontSize:"28px"}}>About Me</h4>
+          <h4 style={{fontSize:"28px"}}>About Me </h4>
           <hr style={{width: "60px"}}/>
             <p id="msg">
               My name is Ajongafac Zinkeng Mbetem. I am a <br /> Software engineer
@@ -52,29 +52,61 @@ const Home = () => {
         <div className="services-boxes">
         <div className="box">
           <div className="box-text">
+          <img style={{width:"80px", height:"90px", margin:"auto"}} src={require("./d.png")} alt="graphic-design icon" />
+
           <h3>Graphic Design</h3>
           <p>Design flyers, posters, logos and branding</p>
           </div>
         </div>
         <div className="box">
           <div className="box-text">
+          <img style={{width:"80px", height:"90px", color:"#FF006B"}} src={require("./interface.png")} alt="graphic-design icon" />
+
         <h3>User Interfaces</h3>
           <p>Design user interfaces for both web and mobile applications</p>
           </div>
         </div>
         <div className="box">
         <div className="box-text">
+        <img style={{width:"80px", height:"90px", margin:"auto"}} src={require("./web.png")} alt="graphic-design icon" />
+
         <h3>Front-end web development</h3>
           <p>Implement  front-end  web applications</p>
           </div>
         </div>
         <div className="box">
         <div className="box-text">
+        <img style={{width:"80px", height:"90px", margin:"auto"}} src={require("./mobile.png")} alt="graphic-design icon" />
+
         <h3>Mobile app development</h3>
           <p>Create native mobile applications for both ios and android.</p>
           </div>
         </div>
         </div>
+
+      </div>
+
+      <div className="Footer">
+        <div className="footer-column">
+        <div style={{borderRight: "3px solid #FF006B"}} className="column1">
+        <div style={{fontSize:"24px"}}><a style={{textDecoration:"none", color:"white"}} href="/">Home</a></div>
+        <div style={{fontSize:"24px"}}><a style={{textDecoration:"none", color:"white"}} href="/">About Me</a></div>
+        <div style={{fontSize:"24px"}}><a style={{textDecoration:"none", color:"white"}} href="/">Services</a></div>
+        </div>
+        <div style={{borderRight: "3px solid #FF006B"}} className="column1">
+        <div style={{fontSize:"24px"}}><a style={{textDecoration:"none", color:"white"}} href="/">Resume</a></div>
+        <div style={{fontSize:"24px"}}><a style={{textDecoration:"none", color:"white"}} href="/">Portfolio</a></div>
+        <div style={{fontSize:"24px"}}><a style={{textDecoration:"none", color:"white"}} href="/">Blog</a></div>
+        </div>
+        <div className="column1">
+          <div style={{display:"flex"}} className="contact">
+            <div style={{fontSize:"24px", color:"white"}}>Contact</div>
+           <div><button>Submit</button></div> 
+          </div>
+        </div>
+        </div>
+        <hr style={{marginTop:"100px", width:"50%", margin:"auto", Bordercolor:"white"}} />
+        <p style={{fontSize:"24px", textAlign:"center", color:"white"}}>All rights Reserved Copyright by AZ @ 2022</p>
 
       </div>
     </div>

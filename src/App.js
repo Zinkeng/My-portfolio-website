@@ -1,4 +1,5 @@
  import Home from './Home';
+ import Resume from './Resume';
 import Header from './header/header';
 
 
@@ -12,6 +13,9 @@ function App() {
         </div>
         <div className='row'>
             <Home/>
+        </div>
+        <div className='row'>
+          <Resume/>
         </div>
       
       </div>

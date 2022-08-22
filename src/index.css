@@ -49,7 +49,8 @@
   border-radius: 50%;
   margin-right: auto;
   margin-top: 10%;
-  margin-left: 30%;
+  margin-left: 43%;
+  
 }
 
 .home h1 {
@@ -64,6 +65,7 @@
 
 
 /*********************************HOME CSS END************************************/
+
 /*********************************ABOUT PAGE CSS BEGINS***************************/
 
 .container {
@@ -138,7 +140,7 @@ button{
 
 /******************************************SERVICES PAGE*******************************************************************/
 .services{
-  background-color: rgb(126, 4, 112);
+  background-color: rgb(105, 4, 93);
   height: 50vh;
   margin: 0;
   padding: 0;
@@ -160,5 +162,47 @@ button{
 
  .box-text{
   text-align: center;
-  margin-top: 150px;
+  margin-top: 90px;
+}
+/*************************************************FOOTER************************************************************/
+.Footer{
+  height: 40vh;
+  background-color:rgb(88, 2, 78) ;
+}
+.footer-column{
+  display: flex;
+  text-align: center;
+  margin: 0;
+  justify-content: center;
+  /*margin-top: 100px;*/
+}
+
+ .column1{
+  flex-direction: column;
+  padding: 90px;
+  text-align: center;
+  margin: 0;
+
+}
+/************************************************RESUME***************************************************************/
+.Resume-title{
+  float: right;
+}
+.Resume{
+  background-color: rgb(105, 4, 93);
+  height: 70vh;
+}
+
+.bt{
+  background-color: #FF006B;
+  color: white;
+  border: none;
+  text-decoration: none;
+  font-size:larger;
+  border-radius: 50px;
+  height: 100px;
+  width: 400px;
+  margin-top: 30px;
+  align-items: center;
+  
 }
